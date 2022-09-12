@@ -1,0 +1,25 @@
+
+ 
+ 
+ .spiner{
+    height: 100px;
+    width: 100px;
+    background:#fff;
+    border-radius: 80px;
+    border-color: #6441A5;
+    border-style: solid dotted solid dotted;
+    animation: spiner 2s linear infinite;
+    position: relative;
+    top: 200px;
+}
+@keyframes spiner{
+    from{
+transform: rotate(0);
+    }
+    to{
+        transform: rotate( -360deg);
+    }
+}
+
+
+
